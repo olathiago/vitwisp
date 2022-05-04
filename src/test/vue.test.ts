@@ -12,5 +12,5 @@ test('Mount hello message', () => {
     }
   })
 
-  expect(wrapper.text()).eq('Vitwisp')
+  expect(wrapper.props('message')).eq('Vitwisp')
 })
